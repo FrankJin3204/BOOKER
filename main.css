@@ -1,0 +1,269 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.nav
+{
+    height: 42px;
+    background: url("images/top_bg.jpg")repeat-x;
+}
+.nav_mid
+{
+    width: 950px;
+    height: 42px;
+    margin-left:165px;
+}
+.nav li
+{
+    list-style-type: none;
+    padding-right:20px;
+    margin-right:23px;
+    line-height: 42px;
+    float:right;
+    font-size: 12px;
+    background: url("images/menu.png")no-repeat right 15px;
+}
+.nav a
+{
+    text-decoration: none;
+}
+.nav a:link,.nav a:visited
+{
+    color: #ffffff;
+}
+.nav a:hover,.nav a:active
+{
+    color: rgba(211, 207, 244, 0.64);
+}
+.center
+{
+    background: url("images/bg.jpg");
+}
+.center_bg
+{
+    height: 650px;
+    background: url("images/center_bg.jpg")no-repeat center 0;
+}
+.logo
+{
+    height: 250px;
+    background: url("images/logo_bg.png")no-repeat 444px 83px;
+}
+.book
+{
+    height: 398px;
+    background: url("images/open_book.png") no-repeat center;
+    overflow: hidden;
+    margin-bottom: 80px;
+}
+.book section h2
+{
+    color: #be22ad;
+    font-family:  cursive;
+    font-size: 24px;
+    margin-bottom: 10px
+}
+.welcome_text
+{
+    width: 320px;
+    color: #917147;
+    margin: 0 0 0 230px;
+    font-size: 14px;
+    padding: 100px 0 0 0;
+    float: left
+}
+.welcome_text p
+{
+    margin-bottom: 10px
+}
+.welcome_text a
+{
+    text-decoration: none;
+}
+.welcome_text a:hover,.welcome_text a:active
+{
+    color: #5e8bc3;
+}
+.more, .more_page
+{
+    float: right;
+    line-height: 30px;
+    padding: 0 0 0 15px;
+    height: 34px;
+    clear: both
+}
+.more
+{
+    color: #917147;
+    background: url("images/book_more.gif") no-repeat;
+}
+.more_page
+{
+    background: url("images/page_more.png") no-repeat;
+    color: #704d20;
+}
+.coin-slider
+{
+    overflow: hidden;
+    width: 506px;
+    height: 342px;
+    background: url("images/photo_frame.png") no-repeat center top;
+    padding: 18px 0 0 54px;
+    float: right;
+    margin-right: 200px;
+}
+.coin-slider li
+{
+    list-style-type: none;
+}
+.cs-buttons, .cs-title
+{
+    display: none;
+}
+.cs-prev, .cs-next
+{
+    background: #000000;
+    color: #FFFFFF;
+    padding: 0 10px;
+}
+.back
+{
+    background: url("images/bg.jpg");
+    height: 400px;
+}
+.content
+{
+    width: 400px;
+    float: left;
+}
+.introduction
+{
+    height:220px;
+    width: 415px;
+    margin-left: 210px;
+}
+.introduction h1
+{
+    height: 40px;
+    font-size: 15px;
+    color: #c21978;
+}
+.introduction img
+{
+    height:68px;
+    width: 94px;
+    margin:14px;
+}
+.picture
+{
+    height: 100px;
+    width: 120px;
+    margin:0 30px 20px 0;
+    float: left;
+    background: url("images/photo_thumb_frame.gif")no-repeat center;
+}
+.words
+{
+    font-size: 12px;
+    line-height: 20px;
+    color: #403f3c;
+}
+.more_us
+{
+    background: url("images/page_more.png")no-repeat;
+    font-size: 13px;
+    float: right;
+    width: 70px;
+    height: 35px;
+    text-decoration: none;
+    text-align: right;
+    font-family: "Microsoft New Tai Lue";
+    line-height: 34px;
+    color: #945514;
+}
+.photo
+{
+    height:220px;
+    width: 415px;
+    margin-left: 210px;
+}
+.photo h2
+{
+    height: 40px;
+    font-size: 15px;
+    color: #c21978;
+}
+.photo img
+{
+    height:68px;
+    width: 94px;
+    margin:14px;
+}
+.photo_01,.photo_02
+{
+    height: 100px;
+    width: 120px;
+    margin:0 27px 20px 0;
+    float: left;
+    background: url("images/photo_thumb_frame.gif")no-repeat center;
+}
+.photo_03
+{
+    height: 100px;
+    width: 120px;
+    float: left;
+    background: url("images/photo_thumb_frame.gif")no-repeat center;
+}
+.more_view
+{
+    margin-top: 10px;
+    background: url("images/page_more.png")no-repeat;
+    font-size: 13px;
+    float: right;
+    width: 70px;
+    height: 35px;
+    text-decoration: none;
+    text-align: right;
+    font-family: "Microsoft New Tai Lue";
+    line-height: 34px;
+    color: #945514;
+}
+.update
+{
+    float:right;
+    height: 400px;
+    width: 460px;
+    margin-right: 180px;
+    margin-top:3px;
+}
+.update h3
+{
+    height: 40px;
+    font-size: 15px;
+    color: #c21978;
+}
+.time
+{
+    width:56px;
+    height: 57px;
+    padding-top:5px;
+    float: left;
+    background: url("images/post_date_bg.gif")no-repeat;
+}
+.time span
+{
+    color: #FFFFFF;
+    font-family:"Segoe Script";
+    margin-left: 14px;
+}
+.time p
+{
+    color: #FFFFFF;
+    font-family: "Microsoft Yi Baiti";
+    margin-left: 14px;
+}
+.text_01
+{
+
+}
